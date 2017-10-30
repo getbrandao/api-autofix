@@ -80,4 +80,5 @@ You may look Wiki's project to solve some questions, if exist.
 ```
 Contact us through:
 
-GMAIL: gustavobra
+GMAIL: gustavobrandao@bsd.com.br
+```
