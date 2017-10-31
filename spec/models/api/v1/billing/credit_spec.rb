@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Billing::Credit, type: [:model, :credit] do
+RSpec.describe Api::V1::Billing::Credit, type: [:model, :credit] do
 
   context 'Save record' do
     let(:valid_credit){build(:credit)}
