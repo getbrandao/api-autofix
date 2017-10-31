@@ -47,6 +47,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
   gem 'database_cleaner'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'simplecov', require: false
   gem 'codecov', require: false
 end
