@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Billing::Debit, type: [:model, :debit] do
+RSpec.describe Api::V1::Billing::Debit, type: [:model, :debit] do
 
   context 'Save record' do
     let(:valid_debit){build(:debit)}
