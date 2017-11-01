@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe User, type: [:model, :user] do
+RSpec.describe Api::User, type: [:model, :user] do
   context 'Save record' do
     let(:user){build(:user)}
 
