@@ -23,10 +23,9 @@ gem 'versionist'
 gem 'rack-cors', require: 'rack/cors'
 
 # Auth Manager
-gem 'devise'
-#gem 'devise_token_auth'
+gem 'devise_token_auth'
 # Translate's Auth Manager
-#gem 'devise-i18n'
+gem 'devise-i18n'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
